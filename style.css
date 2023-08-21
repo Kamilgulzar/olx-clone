@@ -1,0 +1,40 @@
+.olxlogo {
+    height: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.navwid {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navtext {
+    font-size: small;
+    text-decoration: none;
+}
+
+.olxbk {
+    height: 25px;
+}
+
+nav {
+    padding: 15px 15px;
+}
+
+.maindiv {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
