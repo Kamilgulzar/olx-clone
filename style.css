@@ -1,40 +1,198 @@
-.olxlogo {
-    height: 15px;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-}
-.navwid {
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.navtext {
-    font-size: small;
-    text-decoration: none;
-}
-
-.olxbk {
-    height: 25px;
-}
-
-nav {
-    padding: 15px 15px;
-}
-
-.maindiv {
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-
 body{
     padding: 0px;
     margin: 0px;
 }
 
+header {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .olxblue {
+    height: 20px;
+  }
+  .flex {
+    display: flex;
+  
+    gap: 20px;
+    align-items: center;
+  }
+  .navSize {
+    width: 20%;
+  }
+  .headSize {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 70px;
+  }
+  .navHeight {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .navText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+  }
+  .headText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  .olxblack {
+    height: 40px;
+  }
+
+  .searchItems {
+    height: 40px;
+    width: 110vh;
+    border: 2px solid black;
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
+  }
+  .inputLocation {
+    height: 40px;
+    width: 45vh;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .searchBtn {
+    height: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 40px;
+    border-radius: 5px;
+  }
+  .sellBtn {
+    height: 40px;
+    width: 100px;
+    border: 2px solid dodgerblue;
+    border-end-end-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .loginLnk {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .searchib {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchImg {
+    height: 40px;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+  .categories {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+  }
+  .hr {
+    border-top: 1px solid #ebf2fd;
+  }
+
+  .addImg {
+    width: 94%;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+    .addImgFlex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .categFlex {
+      display: flex;
+      margin-left: 40px;
+      margin-right: 40px;
+      flex-wrap: wrap;
+      column-gap: 45px;
+      row-gap: 40px;
+      margin-bottom: 40px;
+    }
+    .categImg {
+      height: 100px;
+    }
+    .categText {
+        font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 50px;
+      margin-left: 40px;
+      margin-top: 20px;
+    }
+    .categCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      max-width: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .flexCard{
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    }
+
+    .Card{
+
+        max-width:24% ;
+        height: 55vh;
+        border:  1px solid #ccd5d6; 
+        border-radius: 5px;
+      }
+      .cardImg{
+        border-start-end-radius: 5px;
+        border-start-start-radius: 5px;
+      
+      }
+      .cardRs{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+      }
+      .CardTitle{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .CardAddress{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: #456391;
+        margin-left: 20px;
+      }
+      .Cardtxt{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 170px;
+      
+      }
+      
